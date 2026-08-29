@@ -70,6 +70,7 @@ The project examines:
 ## Dashboard
 
 A Google Sheets dashboard was created to visualize the major findings from the analysis.
+![Cancer Clinical Trials Dashboard](cancer-clinical-trials-analysis/clinical_trials_dashboard.png)
 
 ## Future Improvements
 
