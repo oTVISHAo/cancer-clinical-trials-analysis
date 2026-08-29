@@ -7,6 +7,21 @@ This project analyzes a randomized sample of 400 cancer-related interventional c
 
 The project focuses on understanding clinical trial phase, enrollment, recruitment status, funding, sponsors, and participant age groups.
 
+## Data Workflow
+
+ClinicalTrials.gov Data
+→ Data Sampling
+→ Data Profiling
+→ Data Cleaning
+→ Exploratory Analysis
+→ Dashboard Development
+
+The original dataset contained 13,440 records. A randomized sample of 400 records was selected for analysis.
+
+The data was profiled before cleaning to identify missing values, categorical inconsistencies, and fields containing multiple values.
+
+The cleaned dataset was then analyzed using pivot tables, descriptive statistics, and visualizations in Google Sheets.
+
 ## Tools
 
 - Google Sheets
@@ -70,6 +85,13 @@ The project examines:
 ## Dashboard
 
 A Google Sheets dashboard was created to visualize the major findings from the analysis.
+
+## Project Files
+
+| File | Description |
+|---|---|
+| `clinical_trials_cleaned.csv` | Cleaned dataset containing 400 clinical trial records |
+| `README.md` | Project documentation and methodology |
 
 ## Future Improvements
 
